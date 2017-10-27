@@ -4,14 +4,39 @@
 		<meta charset="utf-8">
 		<title>Indice</title>
 		<style>
-			#cabecera { background-color:#04B45F; color:#f96; padding:5%; }
-			P {text-align: center; text-color:orange;}
+			#contenedor {margin:10px auto; width:100%;}
+			#cabecera { background-color:#900; color:white; padding:1%; text-align:center; }
+			#menu {  background-color:#999; float:left; margin-bottom:-32767px; min-width: 120px; padding:1%; padding-bottom:32767px; width:15%; }
+			#contenido { background-color:#ddd; float:left; margin-bottom:-32767px; max-width:-moz-calc(92% - 120px); max-width:-webkit-calc(92% - 120px);max-width:calc(92% - 120px);padding:2%; padding-bottom:32767px; width:71%;}
+			#pie {background-color:#900; color:white; clear:both; padding:1%; text-align:center;}
+			#columnas {background-color:#ddd; overflow:hidden; padding-bottom:1%;}
+			img {height:auto; max-width:100%;}
+			h1 {font-size:30px;}
+			li,a {color:green; text-decoration:none; font-size:20px;}
 		</style>
 	</head>
 	<body>
 		<div id="contenedor">
 			<div id="cabecera">
-				<p><a href="https://jessirub.github.io/IAW/CurriculumVitae.html">Curriculum Vitae</a></p>
+				<h1>IMPLANTACIÓN DE APLICACIÓNES WEB</h1>
+			</div>
+			<div id="columnas">
+				<div id="menu">
+					<ul>
+						<br><li><a href="https://jessirub.github.io/IAW/CurriculumVitae.html" target="_blank"> Curriculum Vitae </a></li></br>
+						
+						<br><li><a href="https://jessirub.github.io/IAW/actividades.html" target="_blank"> Actividades </a></li></br>
+					</ul>
+				</div>
+				<div id="contenido">
+					<p align="center">
+					<img src="foto_iaw3.jpg" width="800" height="450" alt="foto">
+					</p>
+				</div>
+			</div>
+			<div id="pie">
+				<p>Curso: 2017-2018</p>
+				<audio src="https://jessirub.github.io/IAW/mirage.mp3" controls autoplay loop preload="auto"></audio>
 			</div>
 		</div>
 	</body>
